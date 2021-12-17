@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Movie Renting Website Design</title>   
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">    
+</head>
+    
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/kaylogo.png" width="130" height="130"> </a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                
+                <ul>
+                     <li><a href="index.html">HOME</a></li>
+                     <li><a href="Films.html">FILMS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                </ul>                 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>  
+    </section>
+    
+<!--------contact us------>
+    <section class="location">
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9515.032369807454!2d36.92835160740179!3d-1.180395391121562!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3f09067bad99%3A0xf16d95cc142da70a!2sKenyatta%20University%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1639733717192!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+ 
+    </section>
+    
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                    <div>
+                        <i class="fas fa-home"></i>
+                        <span>
+                            <h5>K ROAD, NetWorks Building </h5>
+                            <p>Kahawa Sukari,Nairobi</p>
+                        
+                        </span>
+                    </div>
+            </div>
+                  <div>
+                      <i class="fas fa-phone-square-alt"></i>
+                        <span>
+                            <h5>+254 702 055 538</h5>
+                            <p>Monday to Saturday 8.00 to 16.30</p>
+                        
+                        </span>
+                    </div>
+            <div>
+                     <i class="fas fa-envelope-square"></i></i>
+                        <span>
+                            <h5>kaymovies254@gmail.com</h5>
+                            <p>Email us.</p>
+                        
+                        </span>
+                    </div>
+            
+            
+            
+            
+            
+            <div class="contact-col">
+
+            </div>
+        </div>
+
+    
+    
+    
+    
+    </section>
+    
+   
+ <!------footer----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p> Telephone: +254 702 055 538<br>Email:   kaymovies254@gmail.com</p>
+        <div class="icons">
+             <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            
+        </div>
+    </section>
+    
+   
+    <!---javascript for toggle menu--->
+    <script>
+    
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+         function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+    
+  
+    
+    
+    
+    
+               
+</body>
+</html>

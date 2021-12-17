@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Movie Renting Website Design</title>   
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">    
+</head>
+    
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/kaylogo.png" width="130" height="130"> </a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                
+                <ul>
+                      <li><a href="index.html">HOME</a></li>
+                     <li><a href="Films.html">FILMS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                </ul>                 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>  
+    </section>
+    
+    
+    
+   
+ <!------footer----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p> Telephone: +254 702 055 538<br>Email:   kaymovies254@gmail.com</p>
+        <div class="icons">
+             <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            
+        </div>
+    </section>
+    
+    <!-----about us----->
+    <section class="about-us">
+        
+        <div class="row">
+            <div class="about-col">
+                <h1> We are an international group of film lovers and film makers.</h1>
+                <p>Our goal is to allow other lovers of the art of cinema to access various movies we love and watch them and experience what we did by providing movies we watched and loved on a weekly basis.</p>
+                <a href="" class="hero-btn yellow-btn">EXPLORE NOW</a>
+             </div>
+            
+              <div class="about-col">
+                 <img src="Images/jakob-owens-CiUR8zISX60-unsplash.jpg">
+             </div>
+            
+        </div>
+    </section>
+    
+    
+    
+  
+    <!---javascript for toggle menu--->
+    <script>
+    
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+         function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+    
+  
+    
+    
+    
+    
+               
+</body>
+</html>
